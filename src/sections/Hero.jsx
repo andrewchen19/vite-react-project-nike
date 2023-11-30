@@ -69,12 +69,10 @@ const Hero = () => {
                 }`}
                 onClick={() => setShoeNow(shoes[index])}
               >
-                <div className="flex justify-center items-center bg-card bg-cover bg-center rounded-xl w-32 h-32 sm:w-40 sm:h-40 max-sm:p-4 cursor-pointer">
+                <div className="flex justify-center items-center bg-card bg-cover bg-center rounded-xl w-28 h-28 sm:w-40 sm:h-40 max-sm:p-4 cursor-pointer">
                   <img
                     src={thumbnail}
                     alt="shoe collection"
-                    width={127}
-                    height={103}
                     className="object-contain"
                   />
                 </div>
