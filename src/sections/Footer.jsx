@@ -64,7 +64,8 @@ const Footer = () => {
 
       <section className="mt-20 flex max-sm:flex-col justify-between max-sm:items-center max-sm:gap-1.5">
         <p className="font-montserrat">
-          &copy; {new Date().getFullYear()} Copyright. All right reserved.
+          Copyright &copy; {new Date().getFullYear()} Nike Inc. All right
+          reserved.
         </p>
         <p className="font-montserrat">Terms & Conditions</p>
       </section>
